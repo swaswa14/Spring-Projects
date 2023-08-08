@@ -25,6 +25,7 @@
         <module>RestfulWebService</module>
         <module>TaskScheduler</module>
         <module>TaskSchedulerV2</module>
+        <module>ReactiveSpringV2</module>
     </modules>
 
 

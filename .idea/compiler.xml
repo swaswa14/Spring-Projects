@@ -10,6 +10,7 @@
         <module name="ReactiveSpring" />
         <module name="RestfulWebService" />
         <module name="MessagingwithRedis" />
+        <module name="ReactiveSpringV2" />
         <module name="gs-maven" />
         <module name="ConsumingARestFulWebService" />
         <module name="TaskScheduler" />
@@ -26,6 +27,7 @@
       <module name="ConsumingARestFulWebService" options="-parameters" />
       <module name="MessagingwithRedis" options="-parameters" />
       <module name="ReactiveSpring" options="-parameters" />
+      <module name="ReactiveSpringV2" options="-parameters" />
       <module name="RestfulWebService" options="-parameters" />
       <module name="TaskScheduler" options="-parameters" />
       <module name="TaskSchedulerV2" options="-parameters" />
