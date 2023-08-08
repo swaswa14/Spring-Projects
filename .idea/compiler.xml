@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ReactiveSpring" />
+        <module name="RestfulWebService" />
+        <module name="MessagingwithRedis" />
+        <module name="gs-maven" />
+        <module name="ConsumingARestFulWebService" />
+        <module name="TaskScheduler" />
+        <module name="TaskSchedulerV2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ecovest-root" target="17" />
+      <module name="token-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConsumingARestFulWebService" options="-parameters" />
+      <module name="MessagingwithRedis" options="-parameters" />
+      <module name="ReactiveSpring" options="-parameters" />
+      <module name="RestfulWebService" options="-parameters" />
+      <module name="TaskScheduler" options="-parameters" />
+      <module name="TaskSchedulerV2" options="-parameters" />
+      <module name="gs-maven" options="-parameters" />
+    </option>
+  </component>
+</project>

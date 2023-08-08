@@ -13,5 +13,4 @@ public class ReactiveSpringApplication {
         // We need to block for the content here or the JVM might exit before the message is logged
         System.out.println(">> message = " + greetingClient.getMessage().block());
     }
-
 }

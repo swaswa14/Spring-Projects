@@ -1,14 +1,14 @@
 package ph.joshua.salcedo.reactivespring;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Getter
+@Setter
+@ToString
 public class Greeting {
     private String message;
 }
